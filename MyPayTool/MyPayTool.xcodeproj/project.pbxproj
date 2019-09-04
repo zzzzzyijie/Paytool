@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A6C83A5231E637900A32ABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C83A4231E637900A32ABA /* AppDelegate.m */; };
+		1A6C83A8231E637900A32ABA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C83A7231E637900A32ABA /* ViewController.m */; };
+		1A6C83AB231E637900A32ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6C83A9231E637900A32ABA /* Main.storyboard */; };
+		1A6C83AD231E637A00A32ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A6C83AC231E637A00A32ABA /* Assets.xcassets */; };
+		1A6C83B0231E637A00A32ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6C83AE231E637A00A32ABA /* LaunchScreen.storyboard */; };
+		1A6C83B3231E637A00A32ABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C83B2231E637A00A32ABA /* main.m */; };
+		1A6C83BD231E637A00A32ABA /* MyPayToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C83BC231E637A00A32ABA /* MyPayToolTests.m */; };
+		1A6C83C8231E637A00A32ABA /* MyPayToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C83C7231E637A00A32ABA /* MyPayToolUITests.m */; };
+		1A6C83D8231E63C600A32ABA /* MyPaytool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C83D7231E63C600A32ABA /* MyPaytool.m */; };
+		523B08DD947F633C290ABA74 /* Pods_MyPayTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B91A92AEF190A6804F7680 /* Pods_MyPayTool.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A6C83B9231E637A00A32ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6C8398231E637900A32ABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6C839F231E637900A32ABA;
+			remoteInfo = MyPayTool;
+		};
+		1A6C83C4231E637A00A32ABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A6C8398231E637900A32ABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A6C839F231E637900A32ABA;
+			remoteInfo = MyPayTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A6C83A0231E637900A32ABA /* MyPayTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPayTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6C83A3231E637900A32ABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A6C83A4231E637900A32ABA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A6C83A6231E637900A32ABA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A6C83A7231E637900A32ABA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A6C83AA231E637900A32ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A6C83AC231E637A00A32ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A6C83AF231E637A00A32ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A6C83B1231E637A00A32ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6C83B2231E637A00A32ABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A6C83B8231E637A00A32ABA /* MyPayToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPayToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6C83BC231E637A00A32ABA /* MyPayToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPayToolTests.m; sourceTree = "<group>"; };
+		1A6C83BE231E637A00A32ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6C83C3231E637A00A32ABA /* MyPayToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyPayToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A6C83C7231E637A00A32ABA /* MyPayToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPayToolUITests.m; sourceTree = "<group>"; };
+		1A6C83C9231E637A00A32ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A6C83D6231E63C600A32ABA /* MyPaytool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPaytool.h; sourceTree = "<group>"; };
+		1A6C83D7231E63C600A32ABA /* MyPaytool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPaytool.m; sourceTree = "<group>"; };
+		46B91A92AEF190A6804F7680 /* Pods_MyPayTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyPayTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		512F3962E49E89A0E38B93BA /* Pods-MyPayTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPayTool.debug.xcconfig"; path = "Target Support Files/Pods-MyPayTool/Pods-MyPayTool.debug.xcconfig"; sourceTree = "<group>"; };
+		6A02CA394D99B4B9031FDD86 /* Pods-MyPayTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyPayTool.release.xcconfig"; path = "Target Support Files/Pods-MyPayTool/Pods-MyPayTool.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6C839D231E637900A32ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				523B08DD947F633C290ABA74 /* Pods_MyPayTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6C83B5231E637A00A32ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6C83C0231E637A00A32ABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A6C8397231E637900A32ABA = {
+			isa = PBXGroup;
+			children = (
+				1A6C83A2231E637900A32ABA /* MyPayTool */,
+				1A6C83BB231E637A00A32ABA /* MyPayToolTests */,
+				1A6C83C6231E637A00A32ABA /* MyPayToolUITests */,
+				1A6C83A1231E637900A32ABA /* Products */,
+				3B64B78485D6F9D8A8CA9624 /* Pods */,
+				38D423277874E6B553CB22C5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A6C83A1231E637900A32ABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A6C83A0231E637900A32ABA /* MyPayTool.app */,
+				1A6C83B8231E637A00A32ABA /* MyPayToolTests.xctest */,
+				1A6C83C3231E637A00A32ABA /* MyPayToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A6C83A2231E637900A32ABA /* MyPayTool */ = {
+			isa = PBXGroup;
+			children = (
+				1A6C83D5231E63A800A32ABA /* MyPaytool */,
+				1A6C83A3231E637900A32ABA /* AppDelegate.h */,
+				1A6C83A4231E637900A32ABA /* AppDelegate.m */,
+				1A6C83A6231E637900A32ABA /* ViewController.h */,
+				1A6C83A7231E637900A32ABA /* ViewController.m */,
+				1A6C83A9231E637900A32ABA /* Main.storyboard */,
+				1A6C83AC231E637A00A32ABA /* Assets.xcassets */,
+				1A6C83AE231E637A00A32ABA /* LaunchScreen.storyboard */,
+				1A6C83B1231E637A00A32ABA /* Info.plist */,
+				1A6C83B2231E637A00A32ABA /* main.m */,
+			);
+			path = MyPayTool;
+			sourceTree = "<group>";
+		};
+		1A6C83BB231E637A00A32ABA /* MyPayToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6C83BC231E637A00A32ABA /* MyPayToolTests.m */,
+				1A6C83BE231E637A00A32ABA /* Info.plist */,
+			);
+			path = MyPayToolTests;
+			sourceTree = "<group>";
+		};
+		1A6C83C6231E637A00A32ABA /* MyPayToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A6C83C7231E637A00A32ABA /* MyPayToolUITests.m */,
+				1A6C83C9231E637A00A32ABA /* Info.plist */,
+			);
+			path = MyPayToolUITests;
+			sourceTree = "<group>";
+		};
+		1A6C83D5231E63A800A32ABA /* MyPaytool */ = {
+			isa = PBXGroup;
+			children = (
+				1A6C83D6231E63C600A32ABA /* MyPaytool.h */,
+				1A6C83D7231E63C600A32ABA /* MyPaytool.m */,
+			);
+			path = MyPaytool;
+			sourceTree = "<group>";
+		};
+		38D423277874E6B553CB22C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46B91A92AEF190A6804F7680 /* Pods_MyPayTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B64B78485D6F9D8A8CA9624 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				512F3962E49E89A0E38B93BA /* Pods-MyPayTool.debug.xcconfig */,
+				6A02CA394D99B4B9031FDD86 /* Pods-MyPayTool.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A6C839F231E637900A32ABA /* MyPayTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6C83CC231E637A00A32ABA /* Build configuration list for PBXNativeTarget "MyPayTool" */;
+			buildPhases = (
+				2A100D13095603EE05272F2A /* [CP] Check Pods Manifest.lock */,
+				1A6C839C231E637900A32ABA /* Sources */,
+				1A6C839D231E637900A32ABA /* Frameworks */,
+				1A6C839E231E637900A32ABA /* Resources */,
+				7FBF8E6DDF6FDE5D91EBF74F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPayTool;
+			productName = MyPayTool;
+			productReference = 1A6C83A0231E637900A32ABA /* MyPayTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A6C83B7231E637A00A32ABA /* MyPayToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6C83CF231E637A00A32ABA /* Build configuration list for PBXNativeTarget "MyPayToolTests" */;
+			buildPhases = (
+				1A6C83B4231E637A00A32ABA /* Sources */,
+				1A6C83B5231E637A00A32ABA /* Frameworks */,
+				1A6C83B6231E637A00A32ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6C83BA231E637A00A32ABA /* PBXTargetDependency */,
+			);
+			name = MyPayToolTests;
+			productName = MyPayToolTests;
+			productReference = 1A6C83B8231E637A00A32ABA /* MyPayToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A6C83C2231E637A00A32ABA /* MyPayToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A6C83D2231E637A00A32ABA /* Build configuration list for PBXNativeTarget "MyPayToolUITests" */;
+			buildPhases = (
+				1A6C83BF231E637A00A32ABA /* Sources */,
+				1A6C83C0231E637A00A32ABA /* Frameworks */,
+				1A6C83C1231E637A00A32ABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A6C83C5231E637A00A32ABA /* PBXTargetDependency */,
+			);
+			name = MyPayToolUITests;
+			productName = MyPayToolUITests;
+			productReference = 1A6C83C3231E637A00A32ABA /* MyPayToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A6C8398231E637900A32ABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					1A6C839F231E637900A32ABA = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					1A6C83B7231E637A00A32ABA = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 1A6C839F231E637900A32ABA;
+					};
+					1A6C83C2231E637A00A32ABA = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 1A6C839F231E637900A32ABA;
+					};
+				};
+			};
+			buildConfigurationList = 1A6C839B231E637900A32ABA /* Build configuration list for PBXProject "MyPayTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A6C8397231E637900A32ABA;
+			productRefGroup = 1A6C83A1231E637900A32ABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A6C839F231E637900A32ABA /* MyPayTool */,
+				1A6C83B7231E637A00A32ABA /* MyPayToolTests */,
+				1A6C83C2231E637A00A32ABA /* MyPayToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A6C839E231E637900A32ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6C83B0231E637A00A32ABA /* LaunchScreen.storyboard in Resources */,
+				1A6C83AD231E637A00A32ABA /* Assets.xcassets in Resources */,
+				1A6C83AB231E637900A32ABA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6C83B6231E637A00A32ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6C83C1231E637A00A32ABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A100D13095603EE05272F2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyPayTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FBF8E6DDF6FDE5D91EBF74F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyPayTool/Pods-MyPayTool-resources.sh",
+				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyPayTool/Pods-MyPayTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6C839C231E637900A32ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6C83D8231E63C600A32ABA /* MyPaytool.m in Sources */,
+				1A6C83A8231E637900A32ABA /* ViewController.m in Sources */,
+				1A6C83B3231E637A00A32ABA /* main.m in Sources */,
+				1A6C83A5231E637900A32ABA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6C83B4231E637A00A32ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6C83BD231E637A00A32ABA /* MyPayToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A6C83BF231E637A00A32ABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A6C83C8231E637A00A32ABA /* MyPayToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A6C83BA231E637A00A32ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6C839F231E637900A32ABA /* MyPayTool */;
+			targetProxy = 1A6C83B9231E637A00A32ABA /* PBXContainerItemProxy */;
+		};
+		1A6C83C5231E637A00A32ABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A6C839F231E637900A32ABA /* MyPayTool */;
+			targetProxy = 1A6C83C4231E637A00A32ABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A6C83A9231E637900A32ABA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6C83AA231E637900A32ABA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A6C83AE231E637A00A32ABA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A6C83AF231E637A00A32ABA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A6C83CA231E637A00A32ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A6C83CB231E637A00A32ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A6C83CD231E637A00A32ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 512F3962E49E89A0E38B93BA /* Pods-MyPayTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyPayTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.MyPayTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A6C83CE231E637A00A32ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A02CA394D99B4B9031FDD86 /* Pods-MyPayTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyPayTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.MyPayTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A6C83D0231E637A00A32ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyPayToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.MyPayToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPayTool.app/MyPayTool";
+			};
+			name = Debug;
+		};
+		1A6C83D1231E637A00A32ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyPayToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.MyPayToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyPayTool.app/MyPayTool";
+			};
+			name = Release;
+		};
+		1A6C83D3231E637A00A32ABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyPayToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.MyPayToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyPayTool;
+			};
+			name = Debug;
+		};
+		1A6C83D4231E637A00A32ABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyPayToolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.MyPayToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyPayTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A6C839B231E637900A32ABA /* Build configuration list for PBXProject "MyPayTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6C83CA231E637A00A32ABA /* Debug */,
+				1A6C83CB231E637A00A32ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6C83CC231E637A00A32ABA /* Build configuration list for PBXNativeTarget "MyPayTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6C83CD231E637A00A32ABA /* Debug */,
+				1A6C83CE231E637A00A32ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6C83CF231E637A00A32ABA /* Build configuration list for PBXNativeTarget "MyPayToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6C83D0231E637A00A32ABA /* Debug */,
+				1A6C83D1231E637A00A32ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A6C83D2231E637A00A32ABA /* Build configuration list for PBXNativeTarget "MyPayToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6C83D3231E637A00A32ABA /* Debug */,
+				1A6C83D4231E637A00A32ABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A6C8398231E637900A32ABA /* Project object */;
+}
